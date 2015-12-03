@@ -4,9 +4,21 @@
      android:fillAfter="true">
 
     <translate
-        android:fromYDelta="75%p"
-        android:toYDelta="0%p"
-        android:duration="2000"
-        />
+            android:fromYDelta="75%p"
+            android:toYDelta="0%p"
+            android:duration="5000"
+            android:repeatCount="infinite"/>
+
+    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+           android:duration="5000"
+           android:fromXScale="1.4"
+           android:fromYScale="1.4"
+           android:pivotX="50%"
+           android:pivotY="50%"
+           android:toXScale=".6"
+           android:toYScale=".6"
+            android:repeatCount="infinite">
+    </scale>
+
 
 </set>

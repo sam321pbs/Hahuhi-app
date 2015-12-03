@@ -20,7 +20,7 @@ public class StartGamePageActivity extends FragmentActivity {
         startGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StartGamePageActivity.this, MainBalloonActivity.class);
+                Intent intent = new Intent(StartGamePageActivity.this, SelectGameActivity.class);
                 startActivity(intent);
             }
         });

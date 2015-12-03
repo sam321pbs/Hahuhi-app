@@ -1,76 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@+id/content_layout"
-                xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/content_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="@drawable/background_sky_back">
 
 
     <ImageView
-        android:id="@+id/activity_main_balloon_image_view_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="225dp"
-        android:src="@drawable/chih"/>
+            android:id="@+id/activity_main_balloon_image_view_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chih"
+            android:layout_marginTop="600dp"/>
+
 
     <ImageView
-        android:id="@+id/activity_main_balloon_image_view_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="350dp"
-        android:layout_marginTop="250dp"
-        android:src="@drawable/fe"/>
+            android:id="@+id/activity_main_balloon_image_view_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/fe"
+            android:layout_marginTop="600dp"/>
 
     <ImageView
-        android:id="@+id/activity_main_balloon_image_view_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="450dp"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/je"/>
+            android:id="@+id/activity_main_balloon_image_view_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="450dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/je"/>
 
     <ImageView
-        android:id="@+id/activity_main_balloon_image_view_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="550dp"
-        android:layout_marginTop="350dp"
-        android:src="@drawable/mae"/>
+            android:id="@+id/activity_main_balloon_image_view_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="550dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/mae"/>
 
     <ImageView
-        android:id="@+id/activity_main_balloon_image_view_5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="650dp"
-        android:layout_marginTop="220dp"
-        android:src="@drawable/weh"/>
+            android:id="@+id/activity_main_balloon_image_view_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="650dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/weh"/>
 
     <View
-        android:id="@+id/activity_main_balloon_forest"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentRight="true"
-        android:background="@drawable/background_forest_front"/>
+            android:id="@+id/activity_main_balloon_forest"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/background_forest_front"/>
 
     <ImageView
-        android:id="@+id/random_button_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/random"
-        android:layout_above="@+id/sequential_button_image_view"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="5dp"/>
+            android:id="@+id/random_button_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/random"
+            android:layout_above="@+id/sequential_button_image_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"/>
 
     <ImageView
-        android:id="@+id/sequential_button_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/sequential"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="5dp"/>
-
+            android:id="@+id/sequential_button_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sequential"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"/>
 
 
 </RelativeLayout>
