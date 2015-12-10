@@ -1,10 +1,12 @@
-package com.example.sammengistu.hahuhi;
+package com.example.sammengistu;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.ImageView;
+
+import HahuhiGame.hahuhi.R;
 
 /**
  * Created by SamMengistu on 11/24/15.

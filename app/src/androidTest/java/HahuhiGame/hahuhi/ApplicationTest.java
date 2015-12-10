@@ -1,4 +1,4 @@
-package com.example.sammengistu.hahuhi;
+package HahuhiGame.hahuhi;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
